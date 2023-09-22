@@ -21,8 +21,8 @@ import com.song.SongApplication.exception.ResourceNotFoundException;
 import com.song.SongApplication.model.Song;
 import com.song.SongApplication.repository.SongRepository;
 
-//@CrossOrigin(origins = "https://song-application-kamit9171.netlify.app")
-	@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://song-application-kamit9171.netlify.app")
+	//@CrossOrigin(origins = "http://localhost:4200")
 @RestController
 @RequestMapping("/api/v1/")
 public class SongController {
